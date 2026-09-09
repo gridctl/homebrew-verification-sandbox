@@ -3,7 +3,7 @@ cask "gridctl" do
   name "gridctl"
   desc "MCP orchestration tool - Containerlab for AI Agents"
   homepage "https://github.com/gridctl/gridctl"
-  version "0.0.0-sandbox-34309007058-1"
+  version "0.0.0-sandbox-34353330334-1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gridctl" do
   on_macos do
     on_intel do
       url "https://github.com/gridctl/release-verification-sandbox/releases/download/v#{version}/gridctl_#{version}_darwin_amd64.tar.gz"
-      sha256 "339f8af42ebaa48ab404081ee442bf07db5aee71cd8748fc24b70b28854cf57a"
+      sha256 "94979c1d52af9d4be7a6e1ea66b20cf3eeccf870090532732b96b5b84e6a9da5"
     end
     on_arm do
       url "https://github.com/gridctl/release-verification-sandbox/releases/download/v#{version}/gridctl_#{version}_darwin_arm64.tar.gz"
-      sha256 "6bb3886c130eff638dbba3ed287376ad9686dded6272fcc805bc24533f5606b1"
+      sha256 "c803623a55f6669a4fe028ab48a1852e4febda64b2d11e3780fca7f551f1ad93"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gridctl/release-verification-sandbox/releases/download/v#{version}/gridctl_#{version}_linux_amd64.tar.gz"
-      sha256 "b3c57ead6e1d951dff28ca3396285c90e22d042380a272f3c5bbccac5ea21a8f"
+      sha256 "99c1b3a5213b3bfd39c2f8b67725f98deff2b0b28caafa955cf0e4a3c9791ad2"
     end
     on_arm do
       url "https://github.com/gridctl/release-verification-sandbox/releases/download/v#{version}/gridctl_#{version}_linux_arm64.tar.gz"
-      sha256 "0d0606985dbd3c7d2d3dcf5d69c51a712b3494681d5bfcb8cf31a1c82d44ec43"
+      sha256 "f2a7d78345848341401907fc363562c4a8866c6495f6cc883d812788ae9fb512"
     end
   end
 
